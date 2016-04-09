@@ -1,0 +1,4 @@
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\bin\Debug\TFLP.Comum.dll
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\bin\Debug\TFLP.Comum.pdb
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\obj\Debug\TFLP.Comum.dll
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\obj\Debug\TFLP.Comum.pdb

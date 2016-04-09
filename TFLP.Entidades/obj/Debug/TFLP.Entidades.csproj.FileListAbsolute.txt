@@ -1,0 +1,5 @@
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\bin\Debug\TFLP.Entidades.dll
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\bin\Debug\TFLP.Entidades.pdb
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.dll
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.pdb
+c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.csprojResolveAssemblyReference.cache
