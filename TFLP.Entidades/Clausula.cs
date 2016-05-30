@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TFLP.Entidades
 {
+    [Serializable]
     public class Clausula
     {
 
@@ -14,6 +15,11 @@ namespace TFLP.Entidades
         public Clausula()
         {
             Atomicas = new List<Atomica>();
+        }
+
+        public Clausula(Clausula clausula)
+        {
+            this.Atomicas = clausula.Atomicas;
         }
 
     }

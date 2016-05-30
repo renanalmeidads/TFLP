@@ -14,5 +14,17 @@ c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica d
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP\bin\Debug\TFLP.Entidades.dll
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP\bin\Debug\TFLP.Entidades.pdb
 C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.exe.config
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.exe
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Controllers.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Entidades.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Comum.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Controllers.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Entidades.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP\bin\Debug\TFLP.Comum.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.csprojResolveAssemblyReference.cache
+C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.TFLP.resources
+C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.Properties.Resources.resources
+C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.csproj.GenerateResource.Cache
 C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.exe
 C:\Users\Renan\Source\Repos\TFLP\TFLP\obj\Debug\TFLP.pdb

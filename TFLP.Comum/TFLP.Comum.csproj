@@ -40,8 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtensionMethods.cs" />
     <Compile Include="ManipuladorArquivo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VerificadorFormula.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TFLP.Entidades\TFLP.Entidades.csproj">
+      <Project>{C6C84E3D-81EA-4F80-912C-2069D6944073}</Project>
+      <Name>TFLP.Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

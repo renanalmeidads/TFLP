@@ -28,23 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbFormula = new System.Windows.Forms.TextBox();
             this.btnVerificar = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
             this.fdArquivo = new System.Windows.Forms.OpenFileDialog();
+            this.taValoracoes = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
-            // 
-            // tbFormula
-            // 
-            this.tbFormula.Location = new System.Drawing.Point(12, 103);
-            this.tbFormula.Name = "tbFormula";
-            this.tbFormula.Size = new System.Drawing.Size(404, 20);
-            this.tbFormula.TabIndex = 0;
             // 
             // btnVerificar
             // 
             this.btnVerificar.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnVerificar.Location = new System.Drawing.Point(113, 160);
+            this.btnVerificar.Location = new System.Drawing.Point(111, 172);
             this.btnVerificar.Name = "btnVerificar";
             this.btnVerificar.Size = new System.Drawing.Size(96, 23);
             this.btnVerificar.TabIndex = 1;
@@ -55,7 +48,7 @@
             // btnUpload
             // 
             this.btnUpload.BackColor = System.Drawing.SystemColors.Highlight;
-            this.btnUpload.Location = new System.Drawing.Point(215, 160);
+            this.btnUpload.Location = new System.Drawing.Point(213, 172);
             this.btnUpload.Name = "btnUpload";
             this.btnUpload.Size = new System.Drawing.Size(89, 23);
             this.btnUpload.TabIndex = 2;
@@ -67,14 +60,22 @@
             // 
             this.fdArquivo.FileName = "fdArquivo";
             // 
+            // taValoracoes
+            // 
+            this.taValoracoes.Location = new System.Drawing.Point(13, 13);
+            this.taValoracoes.Multiline = true;
+            this.taValoracoes.Name = "taValoracoes";
+            this.taValoracoes.Size = new System.Drawing.Size(399, 153);
+            this.taValoracoes.TabIndex = 3;
+            // 
             // TFLP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(430, 314);
+            this.ClientSize = new System.Drawing.Size(424, 207);
+            this.Controls.Add(this.taValoracoes);
             this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.btnVerificar);
-            this.Controls.Add(this.tbFormula);
             this.Name = "TFLP";
             this.Text = "TFLP";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -84,11 +85,10 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.TextBox tbFormula;
         private System.Windows.Forms.Button btnVerificar;
         private System.Windows.Forms.Button btnUpload;
         private System.Windows.Forms.OpenFileDialog fdArquivo;
+        private System.Windows.Forms.TextBox taValoracoes;
     }
 }
 

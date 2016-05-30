@@ -3,3 +3,7 @@ c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica d
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.dll
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.pdb
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Entidades\obj\Debug\TFLP.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Entidades\bin\Debug\TFLP.Entidades.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Entidades\bin\Debug\TFLP.Entidades.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Entidades\obj\Debug\TFLP.Entidades.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Entidades\obj\Debug\TFLP.Entidades.pdb

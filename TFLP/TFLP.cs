@@ -46,7 +46,9 @@ namespace TFLP
                 try
                 {
                     string texto = File.ReadAllText(caminhoArquivo);
-                    formulaController.ProcessarTextoArquivo(texto);
+
+                    foreach(string item in formulaController.ProcessarTextoArquivo(texto))
+                        taValoracoes.AppendText(item + Environment.NewLine);
                 }
                 catch (Exception e)
                 {

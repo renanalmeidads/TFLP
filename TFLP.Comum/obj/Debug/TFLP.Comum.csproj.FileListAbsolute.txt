@@ -2,3 +2,10 @@ c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica d
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\bin\Debug\TFLP.Comum.pdb
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\obj\Debug\TFLP.Comum.dll
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Comum\obj\Debug\TFLP.Comum.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\bin\Debug\TFLP.Comum.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\bin\Debug\TFLP.Comum.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\bin\Debug\TFLP.Entidades.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\bin\Debug\TFLP.Entidades.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\obj\Debug\TFLP.Comum.csprojResolveAssemblyReference.cache
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\obj\Debug\TFLP.Comum.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Comum\obj\Debug\TFLP.Comum.pdb

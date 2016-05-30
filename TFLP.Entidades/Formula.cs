@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TFLP.Entidades
 {
+    [Serializable]
     public class Formula
     {
         #region Propriedades
@@ -28,6 +29,14 @@ namespace TFLP.Entidades
             Comentario = PegarComentarioNaLinha(sFormula.First());
             Tipo = PegarTipoNaLinha(sFormula[1]);
             Clausulas = PegarClausulas(sFormula);
+        }
+
+        public Formula(Formula formula)
+        {
+            this.Clausulas = formula.Clausulas;
+            this.Comentario = formula.Comentario;
+            this.Tipo = formula.Tipo;
+            this.sFormula = formula.sFormula;
         }
         #endregion
 
@@ -53,9 +62,9 @@ namespace TFLP.Entidades
                         Atomica oAtomica = new Atomica();
 
                         if (indexAtomica > 0)
-                            oAtomica.Valor = true;
+                            oAtomica.Negado = false;
                         else
-                            oAtomica.Valor = false;
+                            oAtomica.Negado = true;
 
                         oAtomica.Nome = "p" + Math.Abs(indexAtomica);
 

@@ -10,14 +10,11 @@ namespace TFLP.Controllers
 {
     public class FormulaController
     {
-        public void ProcessarTextoArquivo(string texto)
+        public List<string> ProcessarTextoArquivo(string texto)
         {
 
             List<string> linhas = ManipuladorArquivo.SepararLinhas(texto);
 
-            //List<string> linhasComentario = linhas.Where(e => e[0] == 'c').ToList();
-
-            //string comentario = PegarComentarioNaLinha(linhasComentario.FirstOrDefault());
             List<Formula> lLstFormulas = new List<Formula>();
             
             foreach(Formula oFormula in SepararFormulasString(linhas))
@@ -26,6 +23,34 @@ namespace TFLP.Controllers
                 lLstFormulas.Add(formula);
             }
 
+            VerificadorFormula vf = new VerificadorFormula();
+            List<string> retorno = new List<string>();
+
+            foreach(Formula formula in lLstFormulas)
+            {
+                string valoracao = ValoracoesParaString(vf.ValoracaoVerdadeira(formula));
+                
+                if(valoracao != "")
+                    retorno.Add(formula.Comentario + " - " + valoracao);
+            }
+
+            return retorno;
+
+        }
+
+        private string ValoracoesParaString(List<Atomica> atomicas)
+        {
+            string retorno = String.Empty;
+
+            foreach(Atomica atm in atomicas)
+            {
+                retorno = retorno + " v(" + atm.Nome + ")" + " = " + atm.Valor + ", ";
+            }
+
+            if(retorno.Length > 2)
+                retorno = retorno.Remove(retorno.Length - 2);
+
+            return retorno;
         }
 
         private List<Formula> SepararFormulasString(List<string> pLinhas)
@@ -70,7 +95,7 @@ namespace TFLP.Controllers
 
         private bool ValidarLinha(string pLinha, char pInicial)
         {
-            if (pLinha[0].Equals(pInicial))
+            if (!string.IsNullOrEmpty(pLinha) && pLinha[0].Equals(pInicial))
                 return true;
 
             return false;

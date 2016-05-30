@@ -7,3 +7,12 @@ c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica d
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Controllers\bin\Debug\TFLP.Comum.pdb
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Controllers\bin\Debug\TFLP.Entidades.pdb
 c:\users\renan\documents\visual studio 2015\Projects\Trabalho final de lógica de programação\TFLP.Controllers\obj\Debug\TFLP.Controllers.csprojResolveAssemblyReference.cache
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Controllers.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Controllers.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Comum.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Entidades.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Comum.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\bin\Debug\TFLP.Entidades.pdb
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\obj\Debug\TFLP.Controllers.csprojResolveAssemblyReference.cache
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\obj\Debug\TFLP.Controllers.dll
+C:\Users\Renan\Source\Repos\TFLP\TFLP.Controllers\obj\Debug\TFLP.Controllers.pdb
